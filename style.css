@@ -1,1 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+@import url('y=Abrhttps://fonts.googleapis.com/css2?familil+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+/************container Where The Newspaper's Container is Held ******/
+
+body { width:900px;
+    background-color:#eee;
+    margin:10%;
+    box-sizing: border-box;
+    font-family: sans-seri;
+    border:solid #eee;
+    padding-left:100px;
+    padding-top:100px;
+    padding-bottom:100px;
+    
+    box-shadow: 2px 5px 10px ;
+    box-shadow:#eee;
+
+} 
+
+/************ Newspaper Container ************/
+.newspaper-container{
+    width: 700px;
+    height: 1050px;
+    background: white;
+    border-radius:3%; padding: 5px;
+    box-shadow:  2px 5px 10px;
+    box-shadow:#eee;
+    
+
+}
+/* *******Header Font **********************/
+
+header h1{
+    font-family: "Abril Fatface"; 
+    font-size: 1px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+}
+
+/****  Font Main Text Font*******************/
+
+ body p {
+     font-family: "Source Sans Pro";
+     font-style: normal;
+     font-weight: 800;
+
+    
+}
+
+/* *************Article Font*******************/
+main h2{
+    color:#dd3232;
+    font-family: "Roboto Slab";
+    font-style:oblique;
+    font-weight: bolder;
+
+
+}
+ 
+/***********  Date Styling *******************/
+
+ .newspaper-container div{
+    font-size:small  ;
+    margin-left:30px;
+    padding-top: 20px;
+} 
+/******** Header Styling(Hacker Times) ********/
+.newspaper-container h1{
+    font-family:;
+    font-size: 3em;
+    margin-right:100px;
+    text-align:center;
+    padding-left:100px; 
+}
+
+
+
+/************ Nav Link Container Styling ******/
+.newspaper-container ul{
+    display:flex; 
+    list-style:none;
+    justify-content:space-between;
+    padding: 0px 100px 0px 125px;
+    border-style: solid none ;
+    padding:15px;
+    border-color: #eee;
+    border-left: 1rem solid white;
+    border-right: 1rem solid white;
+
+}
+
+/************* Nav Font Styling ***************/
+
+nav  a{
+    color:#777;
+    font-size: small;
+    line-height:1;
+    
+}
+
+   /********** Main Paragreph Styling *********/
+
+main p{
+    text-align:justify;
+    padding-left:40px ;
+    padding-right:50px;
+}
+
+
+     /******** Article Below Header Styling ***/
+main h2{
+        text-align: left;
+        padding-left: 40px;
+ }
+   /***** Journalist's Name In Red(h5) ********/
+main h5{
+        color:red;
+        padding-bottom: px;
+        padding-left:40px;
+        float:left;
+ }
+
+  /*********** Main Image Styling *************/
+ main img{
+    width:615px;
+    padding-top:;
+    text-align:left;
+    padding-left:40px;
+       
+ }
+
+
+
+ 
+/*********  Sizing of Small Images at Bottom *****/
+
+.more-articles img{
+     width: 300px;
+
+ }
+
+ /* ***** Horizontal Line with Styling Of  Smaller
+              Images Along With The
+           Small Paragraphs At Bottom ************/
+
+.more-articles {
+    border-style: solid none none none;
+    border-color: #eee;
+    text-align :justify;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:20px;
+    column-count:2;
+    padding-left:5px;
+    padding-right;
+    }
