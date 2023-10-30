@@ -32,10 +32,11 @@ body { width:900px;
 
 header h1{
     font-family: "Abril Fatface"; 
-    font-size: 1px;
+    font-size: 3em;
     font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
+    font-variant:normal;
+    font-weight:bold;
+
 }
 
 /****  Font Main Text Font*******************/
@@ -50,10 +51,11 @@ header h1{
 
 /* *************Article Font*******************/
 main h2{
-    color:#dd3232;
+    color:black;
     font-family: "Roboto Slab";
     font-style:oblique;
     font-weight: bolder;
+    
 
 
 }
