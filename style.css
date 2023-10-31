@@ -9,25 +9,27 @@ body { width:900px;
     font-family: sans-seri;
     border:solid #eee;
     padding-left:100px;
-    padding-top:100px;
+    padding-top:75px;
     padding-bottom:100px;
-    
     box-shadow: 2px 5px 10px ;
-    box-shadow:#eee;
+    box-shadow:#eee; 
 
 } 
 
 /************ Newspaper Container ************/
 .newspaper-container{
     width: 700px;
-    height: 1050px;
+    height: 1100px;
     background: white;
-    border-radius:3%; padding: 5px;
+    border-radius:3%; padding:5px ;
     box-shadow:  2px 5px 10px;
     box-shadow:#eee;
-    
+    padding-top:20px; 
+    margin:0;
+}  
 
-}
+
+
 /* *******Header Font **********************/
 
 header h1{
@@ -36,6 +38,8 @@ header h1{
     font-style: normal;
     font-variant:normal;
     font-weight:bold;
+    text-align:center;
+    margin:0;
 
 }
 
@@ -45,6 +49,7 @@ header h1{
      font-family: "Source Sans Pro";
      font-style: normal;
      font-weight: 800;
+     margin:0;
 
     
 }
@@ -62,9 +67,10 @@ main h2{
  
 /***********  Date Styling *******************/
 
- .newspaper-container div{
+ .newspaper-container div{ 
+
     font-size:small  ;
-    margin-left:30px;
+    margin-left: 0 0 0px 0;
     padding-top: 20px;
 } 
 /******** Header Styling(Hacker Times) ********/
@@ -76,30 +82,46 @@ main h2{
     padding-left:100px; 
 }
 
+/*********** Sticky Nav  **********************/
+nav{
+    
+    padding:0;
+    margin:0;
+    font-size:;
+    position: sticky;
+    top:10px;
+    z-index:1;
+
+}
+
+/************ Ul Magin/Padding ***************/
+
+ ul{
+    padding: 0;  
+     margin:0;
+    
+
+}
+
 
 
 /************ Nav Link Container Styling ******/
-.newspaper-container ul{
-    display:flex; 
+   ul li{
+    font-size:small;
     list-style:none;
-    justify-content:space-between;
-    padding: 0px 100px 0px 125px;
+    justify-content:;
+    padding-left: 10px;
     border-style: solid none ;
-    padding:15px;
     border-color: #eee;
-    border-left: 1rem solid white;
-    border-right: 1rem solid white;
+    border-left:  solid white;
+    border-right: solid white;
+    display:inline-block;
+    margin:0;
 
-}
-
-/************* Nav Font Styling ***************/
-
-nav  a{
-    color:#777;
-    font-size: small;
-    line-height:1;
     
+
 }
+
 
    /********** Main Paragreph Styling *********/
 
@@ -134,19 +156,14 @@ main h5{
 
 
 
- 
-/*********  Sizing of Small Images at Bottom *****/
-
-.more-articles img{
-     width: 300px;
-
- }
 
  /* ***** Horizontal Line with Styling Of  Smaller
               Images Along With The
            Small Paragraphs At Bottom ************/
 
 .more-articles {
+    width:
+    border-bottom:10px solid black;
     border-style: solid none none none;
     border-color: #eee;
     text-align :justify;
@@ -154,6 +171,6 @@ main h5{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap:20px;
     column-count:2;
-    padding-left:5px;
+    padding-left:45px;
     padding-right;
     }
